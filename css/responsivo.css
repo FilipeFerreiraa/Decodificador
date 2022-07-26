@@ -1,0 +1,136 @@
+@media screen and (min-width: 0px) {
+    .header {
+        height: 110px;
+    }
+
+    .header__logo {
+        width: 80px;
+    }
+
+    .main__container {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .input {
+        width: 336px;
+    }
+
+    .output {
+        height: 288px;
+    }
+
+    .output::placeholder {
+        top: 75px;
+        font-size: 25px;
+    }
+
+    .main__buttons {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 175px;
+    }
+
+    .main__textarea {
+        width: 90vw;
+        height: 530px;
+    }
+
+    .second__textarea {
+        height: 465px;
+    }
+
+    .social__media {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 170px;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main__textarea {
+        width: 640px;
+    }
+
+    .second__textarea {
+        width: 640px;
+    }
+
+    .input {
+        width: 600px;
+    }
+
+    .output {
+        width: 600px;
+        height: 288px;
+    }
+
+    .social__media {
+        flex-direction: row;
+        width: 620px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        height: 90px;
+    }
+
+    .header__logo {
+        width: 109px
+    }
+
+    .main__container {
+        height: 90vh;
+        flex-direction: row;
+    }
+
+    .main__textarea {
+        width: 750px;
+    }
+
+    .second__textarea {
+        width: 362px;
+    }
+
+    .input {
+        width: 680px;
+    }
+
+    .output {
+        height:500px;
+        width: 336px;
+    }
+
+    .output::placeholder {
+        top: 110px;
+        font-size: 30px;
+    }
+
+    .main__buttons {
+        flex-direction: row;
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .main__textarea {
+        width: 750px;
+        height: 450px;
+    }
+
+    .second__textarea {
+        height: 625px;
+    }
+
+    .social__media {
+        width: 400px;
+    }
+
+    footer {
+        height: 120px;
+        align-items: center;
+    }
+}

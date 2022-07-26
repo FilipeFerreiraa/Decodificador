@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Decodificador Textos</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira&display=swap">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/flexbox.css">
+        <link rel="stylesheet" href="./css/responsivo.css">
+        <script src="./js/script.js" defer></script>
+    </head>
+    <header>
+        <div class="header">
+            <a href="https://www.alura.com.br/"><img class="header__logo" src="./img/alura_vector.png"></a>
+        </div>
+    </header>
+    <body>
+        <main class="main__container">
+            <div class="main__textarea">
+   	            <textarea class="input" placeholder="Digite seu texto"></textarea>
+                <div class="main__buttons">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="second__textarea">
+                <textarea class="output" placeholder="Nenhuma mensagem encontrada Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+                <div class="second__button">
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="social__media">
+            <div class="social__media___copyrigth">
+                <p class="copyright">Desenvolvido por<br>&copy;Filipe Ferreira, 2022.</p>
+            </div>
+            <div class="social__media___medias">
+                <a href="https://github.com/FerreiraWars"><img class="github" src="./img/github.png"></a>
+                <a href="https://www.instagram.com/itsfilipeferreira/"><img class="instagram" src="./img/ig.png"></a>
+                <a href="https://www.linkedin.com/in/filipe-ferreira-02a212241/"><img class="linkedin" src="./img/linkedin.png"></a>
+            </div>
+        </div>
+    </footer>
+</html>

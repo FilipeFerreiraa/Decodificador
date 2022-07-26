@@ -1,0 +1,185 @@
+/*Corpo*/
+
+body {
+    background: radial-gradient(rgb(139, 27, 113), rgb(4, 0, 34));
+    background-size: 100 100%;
+    background-repeat: no-repeat;
+    font-family: 'Saira', sans-serif;
+}
+
+/*Cabeçalho*/
+
+.header__logo {
+    width: 109px;
+    background-color: #5436d9;
+    border-radius: 10px;
+    backdrop-filter: blur(13px);
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+.header__logo:hover {
+    background-color: rgb(139 27 113);
+    transition: 250ms;
+}
+
+/*mensagens*/
+
+.message-placeholder {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;  
+    color: rgb(100, 100, 100, 0.3);
+    width: 336px;
+    height: 180px;
+}
+
+/*Botões*/
+
+.encriptar {
+    
+    width: 290px;
+    height: 67px;
+    border-width: 5px;
+    background-color: rgb(10, 0, 0, 0.3);
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border-color: rgb(139 27 113);
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+
+
+.desencriptar {
+    width: 290px;
+    height: 67px;
+    border-width: 5px;
+    background-color: rgb(10, 0, 0, 0.3);
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border-color: rgb(139 27 113);
+    border-style: solid;
+    border-width: 1px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+
+
+.copiar {
+    width: 328px;
+    height: 67px;
+    border-width: 5px;
+    background-color: rgb(10, 0, 0, 0.3);
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border-color: #5436d9;
+    border-style: solid;
+    border-width: 1px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+.encriptar:hover, .desencriptar:hover {
+    backdrop-filter: blur(2px);
+    background-color: rgb(139 27 113);
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.copiar:hover {
+    backdrop-filter: blur(2px);
+    background-color: #5436d9;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+/*Área de textos*/
+
+
+
+.input {
+    width: 680px;
+    height: 288px;
+    resize: none;
+    border-radius: 6px;
+    background-color: rgb(10, 0, 0, 0.3);
+    font-size: 32px;
+    color: #5436d9;
+    backdrop-filter: blur(10px);
+    border: 0 none;
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+
+
+.output {
+    width: 336px;
+    height: 500px;
+    resize: none;
+    border-radius: 6px;
+    background-color: rgb(10, 0, 0, 0.3);
+    font-size: 32px;
+    color: #5436d9;
+    backdrop-filter: blur(10px);
+    border: 0 none;
+    box-shadow: 0px 0px 11px 2px #00000073;
+}
+
+.input:focus, .output:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-style: normal;
+    color: #5436d9;
+    box-shadow: 0px 0px 11px 2px #0000008e;
+}
+
+.input::placeholder {
+    color: rgb(100, 100, 100, 0.3);
+    font-family: 'Saira', sans-serif;
+}
+
+.output::placeholder {
+    position: relative;
+    top: 110px;
+    color: rgb(100, 100, 100, 0.3);
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+}
+
+/*Rodapé*/
+
+
+
+.copyright {
+    text-align: center;
+    color: #FFF;
+    width: 230px;
+}
+
+.github, .instagram, .linkedin {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.github:hover, .instagram:hover, .linkedin:hover, .pinterest:hover {
+    transform: scale(1.1);
+    transition: 10ms;
+}
